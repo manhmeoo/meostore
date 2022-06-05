@@ -1,3 +1,25 @@
+/* font for logo */
+@font-face {
+  font-family: Madina;
+  src: url(./assets/fonts/Madina.ttf);
+}
+/* font for logo */
+
+@font-face {
+  font-family: pompiere;
+  src: url(./assets/fonts/Pompiere-Regular.ttf);
+}
+
+@font-face {
+  font-family: SoftElegance;
+  src: url(./assets/fonts/SoftElegance.ttf);
+}
+
+@font-face {
+  font-family: commercial;
+  src: url(./assets/fonts//Montserrat-Regular.ttf);
+}
+
 * {
   box-sizing: border-box;
   font-family: SoftElegance;

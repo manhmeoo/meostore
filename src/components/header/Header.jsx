@@ -10,16 +10,16 @@ const Header = () => {
           <div className="container">
             <div className="social-icons">
               <Link to="#">
-                <i className="fab fa-facebook" />
+                <i className="bi bi-facebook" />
               </Link>
               <Link to="#">
-                <i className="fab fa-instagram" />
+                <i className="bi bi-instagram" />
               </Link>
               <Link to="#">
-                <i className="fab fa-twitter" />
+                <i className="bi bi-twitter" />
               </Link>
               <Link to="#">
-                <i className="fab fa-discord" />
+                <i className="bi bi-discord" />
               </Link>
             </div>
             <div className="social-langController dropdown">
@@ -60,7 +60,7 @@ const Header = () => {
                   data-bs-target="#offcanvasExample"
                   aria-controls="offcanvasExample"
                 >
-                  <i className="fas fa-bars" />
+                  <i className="bi bi-justify"></i>
                 </div>
                 <div
                   className="offcanvas offcanvas-start"
@@ -136,7 +136,7 @@ const Header = () => {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  <i className="fas fa-user" />
+                  <i className="bi bi-person-fill" />
                 </Link>
                 <ul
                   className="dropdown-menu"
@@ -167,7 +167,7 @@ const Header = () => {
                   data-bs-target="#offcanvasRight"
                   aria-controls="offcanvasRight"
                 >
-                  <i className="fas fa-shopping-bag" />
+                  <i className="bi bi-basket-fill" />
                   <div className="cart-sup">
                     <div>0</div>
                   </div>
@@ -195,7 +195,7 @@ const Header = () => {
           <div className="nav-bottom">
             <ul>
               <li>
-                <Link to="index.html">Home</Link>
+                <Link to="/">Home</Link>
               </li>
               <li>
                 <Link to="about.html">About</Link>

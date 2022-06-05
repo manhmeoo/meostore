@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
+import "bootstrap-icons/font/bootstrap-icons.css";
 import Home from "./pages/home/Home";
 import Products from "./pages/products/Products";
 import "./App.css";
