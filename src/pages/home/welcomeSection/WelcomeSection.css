@@ -1,0 +1,145 @@
+.welcome-container {
+  display: grid;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.welcome-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.5s;
+}
+
+.welcome-container .campain1 {
+  top: 50%;
+  left: unset;
+  right: 5%;
+  transform: translateY(-50%);
+  position: absolute;
+}
+
+.welcome-container .campain-details .main,
+.welcome-container .campain-details .sub {
+  color: #fff;
+}
+
+.welcome-container .campain-details .season {
+  color: #e0ab97;
+}
+
+.welcome-right-top .campain-details .main,
+.welcome-right-top .campain-details .sub {
+  color: #212121;
+}
+
+.welcome-container .campain-details .main {
+  font-size: 15px;
+}
+
+.welcome-right-top {
+  overflow: hidden;
+  position: relative;
+}
+
+.welcome-left img:hover {
+  transform: scale(1.05);
+}
+
+.welcome-right-top:hover img {
+  transform: scale(1.05);
+}
+
+.welcome-right-bottom:hover img {
+  transform: scale(1.05);
+}
+
+.welcome-right-bottom {
+  overflow: hidden;
+  position: relative;
+}
+
+.welcome-left {
+  overflow: hidden;
+  position: relative;
+}
+
+.welcome-right {
+  display: grid;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.welcome-right img {
+  max-height: 350px;
+}
+
+.welcome-slogan {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.welcome-slogan-details img {
+  width: 70px;
+  aspect-ratio: 1;
+  object-fit: contain;
+  transition: all 0.5s;
+}
+
+.welcome-slogan-details {
+  width: 80%;
+  height: 250px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.welcome-slogan-details:hover .img-fluid {
+  transform: scale(1.2);
+}
+
+.welcome-slogan-details .slogan {
+  font-weight: bolder;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.welcome-slogan-details .slogan-sup {
+  font-weight: lighter;
+  font-size: 13px;
+}
+@media (min-width: 1024px) {
+  .welcome-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .welcome-container .campain1 {
+    top: 50%;
+    left: unset;
+    right: 15%;
+    transform: translate(20%, -50%);
+    position: absolute;
+    max-width: 350px;
+  }
+
+  .welcome-container .campain-details .main {
+    font-size: 35px;
+  }
+
+  .welcome-slogan {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .welcome-slogan-details {
+    height: 300px;
+  }
+}

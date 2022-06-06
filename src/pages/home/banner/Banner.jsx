@@ -11,17 +11,6 @@ import Banner2 from "../../../assets/imgs/banner2.jpg";
 const Banner = () => {
   return (
     <>
-      {/* <div className="banner">
-        <div className="swiper bannerSwipper">
-          <div className="swiper-wrapper">
-            <div className="swiper-slide"></div>
-            <div className="swiper-slide"></div>
-          </div>
-          <div className="banner__swiper-button-next swiper-button-next" />
-          <div className="banner__swiper-button-prev swiper-button-prev" />
-          <div className="swiper-pagination" />
-        </div>
-      </div> */}
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
