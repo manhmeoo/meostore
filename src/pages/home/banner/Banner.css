@@ -1,0 +1,157 @@
+.banner {
+  max-width: 1920px;
+  margin: auto;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+  color: #212529;
+  font-size: 30px;
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+
+.swiper-button-next:hover::after,
+.swiper-button-prev:hover::after {
+  font-size: 40px;
+  opacity: 1;
+}
+
+.campain-details {
+  position: absolute;
+  animation: mymove 3s;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.campain-text {
+  font-family: commercial;
+}
+
+.campain-details .season {
+  color: #b45364;
+  font-size: 0.4em;
+  text-transform: uppercase;
+}
+
+.campain-details .main {
+  color: #212529;
+  font-size: 0.9em;
+  text-transform: capitalize;
+}
+
+.campain-details .sub {
+  color: #212529;
+  font-size: 0.4em;
+}
+
+.campain-text-btn {
+  margin-top: 10px;
+  border: none;
+  background-color: #eccbbe;
+  color: #fff;
+  transition: all 0.5s;
+  font-size: 0.6em;
+}
+
+.campain2 {
+  animation: othermove 5s;
+  animation-iteration-count: 2;
+}
+
+.campain-text-btn:hover {
+  background-color: #e0ab97;
+}
+
+@keyframes mymove {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 50%;
+  }
+}
+
+@keyframes othermove {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 50%;
+  }
+}
+@media (min-width: 1024px) {
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    display: block;
+  }
+
+  .campain-details {
+    left: 12.5%;
+  }
+
+  .campain-details .season {
+    color: #b45364;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  .campain-details .main {
+    color: #212529;
+    font-size: 60px;
+    text-transform: capitalize;
+  }
+
+  .campain-details .sub {
+    color: #212529;
+    font-size: 18px;
+  }
+
+  .campain-text-btn {
+    margin-top: 20px;
+    width: 120px;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  .swiper-slide {
+    max-height: 800px;
+  }
+}
