@@ -3,6 +3,7 @@ import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
 import About from "./about/About";
 import Banner from "./banner/Banner";
+import DayDeal from "./daydeal/DayDeal";
 import WelcomeSection from "./welcomeSection/WelcomeSection";
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <Banner></Banner>
       <WelcomeSection></WelcomeSection>
       <About></About>
+      <DayDeal></DayDeal>
       <Footer></Footer>
     </>
   );

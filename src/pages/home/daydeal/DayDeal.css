@@ -1,0 +1,106 @@
+.deal-section {
+  background-color: #fbf5f3;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.deal-section .swiper-slide {
+  background: unset;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.deal-title span {
+  color: #b45364;
+}
+
+.deal-paragraph {
+  color: #21212180;
+  font-size: 15px;
+  padding: 20px;
+}
+
+.deal-countDown {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+.circleTime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  width: 80px;
+  aspect-ratio: 1;
+  font-size: 25px;
+  border: solid 2px #e0ab97;
+}
+
+.timeSub {
+  color: #21212180;
+}
+
+.deal-section .buyBtn {
+  width: 200px;
+  margin: auto;
+  margin-top: 30px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+  line-height: 40px;
+  background-color: #eccbbe;
+  color: #fff;
+}
+
+.buyBtn:hover {
+  background-color: #e0ab97;
+}
+
+.deal-section .products-swiper-button-prev,
+.deal-section .products-swiper-button-next {
+  display: none;
+}
+
+.deal-section:hover .products-swiper-button-prev,
+.deal-section:hover .products-swiper-button-next {
+  display: flex;
+}
+
+.deal-img {
+  max-height: 350px !important;
+  width: 100% !important;
+  object-fit: contain !important;
+}
+
+.deal-image-container {
+  position: relative;
+}
+
+.deal-discount {
+  background-color: #fff;
+  color: #b45364;
+  line-height: 40px;
+  width: 80px;
+  height: 40px;
+  font-size: larger;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+
+@media (min-width: 1024px) {
+  .deal-countDown {
+    gap: 40px;
+  }
+
+  .circleTime {
+    width: 100px;
+    font-size: 36px;
+  }
+}
