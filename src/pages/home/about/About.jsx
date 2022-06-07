@@ -11,7 +11,7 @@ const About = () => {
           <div className="col-lg-5 aboutSection__leftContents">
             <div className="about-background" />
             <div className="aboutSection__mainImg">
-              <img className="img-fluid" src={AboutMainImg} />
+              <img className="img-fluid" src={AboutMainImg} alt="about" />
             </div>
           </div>
           <div className="col-lg-7 aboutSection__rightContents">

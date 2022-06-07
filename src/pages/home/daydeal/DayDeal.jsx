@@ -34,7 +34,7 @@ const DayDeal = () => {
             <SwiperSlide>
               <div className="swiper-slide dealDetails-container row">
                 <div className="col-md-4 deal-image-container">
-                  <img className="deal-img" src={DealImg1} />
+                  <img className="deal-img" src={DealImg1} alt="deal" />
                   <div className="deal-discount">-30%</div>
                 </div>
                 <div className="col-md-8 deal-content">
@@ -92,7 +92,7 @@ const DayDeal = () => {
             <SwiperSlide>
               <div className="swiper-slide dealDetails-container row">
                 <div className="col-md-4 deal-image-container">
-                  <img className="deal-img" src={DealImg2} />
+                  <img className="deal-img" src={DealImg2} alt="deal" />
                   <div className="deal-discount">-50%</div>
                 </div>
                 <div className="col-md-8 deal-content">
@@ -150,7 +150,7 @@ const DayDeal = () => {
             <SwiperSlide>
               <div className="swiper-slide dealDetails-container row">
                 <div className="col-md-4 deal-image-container">
-                  <img className="deal-img" src={DealImg3} />
+                  <img className="deal-img" src={DealImg3} alt="deal" />
                   <div className="deal-discount">-50%</div>
                 </div>
                 <div className="col-md-8 deal-content">

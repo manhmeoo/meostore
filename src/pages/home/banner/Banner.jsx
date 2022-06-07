@@ -29,7 +29,7 @@ const Banner = () => {
       >
         <SwiperSlide>
           <div className="swiper-slide">
-            <img src={Banner2} />
+            <img src={Banner2} alt="banner" />
             <div className="campain-details campain1">
               <div className="campain-text season">New Arrivals</div>
               <div className="campain-text main">New Collection</div>
@@ -42,7 +42,7 @@ const Banner = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="swiper-slide">
-            <img src={Banner5} />
+            <img src={Banner5} alt="banner" />
             <div className="campain-details campain1">
               <div className="campain-text season">New Arrivals</div>
               <div className="campain-text main">New Collection</div>
