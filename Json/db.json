@@ -1,0 +1,146 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Lorem ipsum dolor sit",
+      "price": "300.000",
+      "screenshorts": [
+        {
+          "id": 1,
+          "src": "../src/assets/imgs/product1/product1-1.jpg",
+          "caption": "anh-1"
+        },
+        {
+          "id": 2,
+          "src": "../src/assets/imgs/product1/product1-2.png",
+          "caption": "anh-2"
+        },
+        {
+          "id": 3,
+          "src": "../src/assets/imgs/product1/product1-3.png",
+          "caption": "anh-3"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "price": "399.999",
+      "screenshorts": [
+        {
+          "id": 1,
+          "src": "../src/assets/imgs/product1/product2-1.jpg",
+          "caption": "anh-1"
+        },
+        {
+          "id": 2,
+          "src": "../src/assets/imgs/product1/product2-2.jpg",
+          "caption": "anh-2"
+        },
+        {
+          "id": 3,
+          "src": "../src/assets/imgs/product1/product2-3.png",
+          "caption": "anh-3"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Lorem ipsum dolor sit dolor dolor",
+      "price": "790.000",
+      "screenshorts": [
+        {
+          "id": 1,
+          "src": "../src/assets/imgs/product1/product3-1.jpg",
+          "caption": "anh-1"
+        },
+        {
+          "id": 2,
+          "src": "../src/assets/imgs/product1/product3-2.png",
+          "caption": "anh-2"
+        },
+        {
+          "id": 3,
+          "src": "../src/assets/imgs/product1/product3-3.png",
+          "caption": "anh-3"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Lorem ipsum",
+      "price": "200.000",
+      "screenshorts": [
+        {
+          "id": 1,
+          "src": "../src/assets/imgs/product1/product4-1.jpg",
+          "caption": "anh-1"
+        },
+        {
+          "id": 2,
+          "src": "../src/assets/imgs/product1/product4-2.png",
+          "caption": "anh-2"
+        },
+        {
+          "id": 3,
+          "src": "../src/assets/imgs/product1/product4-3.png",
+          "caption": "anh-3"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Lorem sit ipsum dolor ",
+      "price": "500.000",
+      "screenshorts": [
+        {
+          "id": 1,
+          "src": "../src/assets/imgs/product1/product5-1.jpg",
+          "caption": "anh-1"
+        },
+        {
+          "id": 2,
+          "src": "../src/assets/imgs/product1/product5-2.jpg",
+          "caption": "anh-2"
+        },
+        {
+          "id": 3,
+          "src": "../src/assets/imgs/product1/product5-3.jpeg",
+          "caption": "anh-3"
+        },
+        {
+          "id": 3,
+          "src": "../src/assets/imgs/product1/product5-3.jpeg",
+          "caption": "anh-3"
+        },
+        {
+          "id": 3,
+          "src": "../src/assets/imgs/product1/product5-3.jpeg",
+          "caption": "anh-3"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Lorem ipsum dolor sit",
+      "price": "250.000",
+      "screenshorts": [
+        {
+          "id": 1,
+          "src": "../src/assets/imgs/product1/product6-1.jpg",
+          "caption": "anh-1"
+        },
+        {
+          "id": 2,
+          "src": "../src/assets/imgs/product1/product6-2.jpg",
+          "caption": "anh-2"
+        },
+        {
+          "id": 3,
+          "src": "../src/assets/imgs/product1/product6-3.png",
+          "caption": "anh-3"
+        }
+      ]
+    }
+  ]
+}
