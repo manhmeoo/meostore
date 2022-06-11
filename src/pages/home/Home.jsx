@@ -4,6 +4,7 @@ import Header from "../../components/header/Header";
 import About from "./about/About";
 import Banner from "./banner/Banner";
 import DayDeal from "./daydeal/DayDeal";
+import NewArrival from "./newArrival/NewArrival";
 import WelcomeSection from "./welcomeSection/WelcomeSection";
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
       <Banner></Banner>
       <WelcomeSection></WelcomeSection>
       <About></About>
+      <NewArrival></NewArrival>
       <DayDeal></DayDeal>
       <Footer></Footer>
     </>

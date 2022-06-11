@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./Banner.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -7,31 +7,8 @@ import "swiper/css/navigation";
 import { Pagination, Navigation, Autoplay } from "swiper";
 import Banner5 from "../../../assets/imgs/banner5.jpg";
 import Banner2 from "../../../assets/imgs/banner2.jpg";
-import axios from "axios";
 
 const Banner = () => {
-  // const [isLoading, setLoading] = useState(false);
-  // const [Products, setProducts] = useState();
-
-  // useEffect(() => {
-  //   setLoading(!isLoading);
-  //   try {
-  //     axios
-  //       .get(`http://localhost:3000/products`)
-  //       .then((res) => setProducts(res.data));
-  //     setLoading(!isLoading);
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // }, []);
-  // setLoading(false);
-  // if (isLoading)
-  //   return (
-  //     <>
-  //       <h1>loading...</h1>
-  //     </>
-  //   );
-  // else
   return (
     <>
       <Swiper
