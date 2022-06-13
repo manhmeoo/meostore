@@ -36,7 +36,7 @@
 }
 
 .main-img {
-  transition: all 1s;
+  transition: all 0.75s;
   object-fit: cover;
   aspect-ratio: 0.9;
 }
@@ -51,7 +51,7 @@
 }
 
 .card:hover .main-img {
-  opacity: 0;
+  opacity: 0 !important;
 }
 
 .newArival-container .card:hover .main-img {
@@ -60,7 +60,7 @@
 }
 
 .card:hover .second-img {
-  opacity: 1;
+  opacity: 1 !important;
 }
 
 .Products__details .card-body {

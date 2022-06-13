@@ -1,0 +1,54 @@
+.products-section {
+  margin-top: 50px;
+}
+.nav-tabs .nav-link {
+  background: 0 0;
+  border: none;
+  color: #212529;
+  transition: all 0.3s;
+}
+
+.nav-tabs {
+  border: none;
+  gap: 15px;
+}
+
+.nav-link {
+  width: unset !important;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #eccbbe;
+  border: none;
+  text-decoration: underline;
+  transform: scale(1.2);
+}
+
+.nav-link {
+  width: 120px;
+}
+
+.tab-content {
+  padding: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.Products__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Products__title {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 0;
+  font-weight: 500;
+  padding: 0 0 23px;
+  color: #212529;
+  background: url(../../../assets/imgs/Seprator.png) no-repeat center bottom;
+}

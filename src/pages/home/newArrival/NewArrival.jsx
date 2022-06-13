@@ -28,7 +28,6 @@ const NewArrival = () => {
       </>
     );
   }
-  console.log(Products);
   return (
     <>
       <div className="newArival-section">
@@ -40,8 +39,8 @@ const NewArrival = () => {
                 key={index}
                 title={item.title}
                 price={item.price}
-                image1={item.screenshorts[0]}
-                image2={item.screenshorts[1]}
+                image1={item.screenshorts[0].src}
+                image2={item.screenshorts[1].src}
               />
             ))}
           </div>

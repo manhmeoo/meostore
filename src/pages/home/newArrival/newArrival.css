@@ -1,3 +1,15 @@
+.Products__title {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 0;
+  font-weight: 500;
+  padding: 0 0 23px;
+  color: #212529;
+  background: url(../../../assets/imgs/Seprator.png) no-repeat center bottom;
+}
+
 .newArival-section {
   margin-top: 50px;
 }
@@ -21,6 +33,6 @@
   .newArival-container {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 30px;
+    gap: 40px;
   }
 }
