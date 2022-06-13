@@ -11,6 +11,34 @@ import DealImg3 from "../../../assets/imgs/daily2.png";
 import { Link } from "react-router-dom";
 
 const DayDeal = () => {
+  const countdown = () => {
+    const countDate = new Date("Jan 1, 2035 00:00:00").getTime();
+    const now = new Date().getTime();
+    const remainingTime = countDate - now;
+
+    const second = 1000;
+    const minute = second * 60;
+    const hour = minute * 60;
+    const day = hour * 24;
+
+    const textHour = Math.floor((remainingTime % day) / hour);
+    const textMinute = Math.floor((remainingTime % hour) / minute);
+    const textSecond = Math.floor((remainingTime % minute) / second);
+    for (
+      let i = 0;
+      i < document.querySelectorAll(".timeRemainHours").length;
+      i++
+    ) {
+      document.querySelectorAll(".timeRemainHours")[i].innerText =
+        textHour > 0 ? textHour : 0;
+      document.querySelectorAll(".timeRemainMins")[i].innerText =
+        textMinute > 0 ? textMinute : 0;
+      document.querySelectorAll(".timeRemainSecs")[i].innerText =
+        textSecond > 0 ? textSecond : 0;
+    }
+  };
+
+  setInterval(countdown, 1000);
   return (
     <>
       <div className="deal-section" id="deal-section">
