@@ -10,6 +10,8 @@ import "swiper/css/thumbs";
 // import required modules
 import { FreeMode, Navigation, Thumbs } from "swiper";
 
+import Magnifier from "react-magnifier";
+
 const ProductImgCarousel = ({ Image }) => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
@@ -24,7 +26,7 @@ const ProductImgCarousel = ({ Image }) => {
         <div className="swiper-wrapper">
           {Image?.map((item) => (
             <SwiperSlide className="swiper-slide">
-              <img
+              <Magnifier
                 key={item.id}
                 src={item.src}
                 className="zoom"
@@ -40,7 +42,6 @@ const ProductImgCarousel = ({ Image }) => {
         spaceBetween={10}
         slidesPerView={4}
         freeMode={true}
-        centeredSlides={true}
         watchSlidesProgress={true}
         modules={[FreeMode, Thumbs, Navigation]}
         className="mySwiper swiper"
