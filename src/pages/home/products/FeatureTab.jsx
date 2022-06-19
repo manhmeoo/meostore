@@ -54,7 +54,7 @@ const FeatureTab = () => {
           },
         }}
         navigation={true}
-        modules={[Navigation]}
+        modules={Navigation}
         className="mySwiper swiper products-swiper"
       >
         <div className="swiper-wrapper">

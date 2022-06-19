@@ -1,6 +1,19 @@
 import React from "react";
+import { useState } from "react";
 
 const ProductInfo = ({ title, price }) => {
+  let [quantity, setQuantity] = useState(1);
+  let [newPrice, setNewPrice] = useState(...[price]);
+  function plusBtn() {
+    setQuantity((quantity = quantity + 1));
+    setNewPrice((newPrice = quantity * price * 1000));
+  }
+
+  function minusBtn() {
+    if (quantity > 1) setQuantity((quantity = quantity - 1));
+    setNewPrice((newPrice = quantity * price * 1000));
+  }
+
   return (
     <>
       <div className="product-info-rightContents">
@@ -11,7 +24,7 @@ const ProductInfo = ({ title, price }) => {
               <div className="main-info-price">
                 <div className="main-info-priceTitle">Price:</div>
                 <div className="main-info-firstPrice">
-                  {Number(price) + 200} VNĐ
+                  {price * 1000 + 200000} VNĐ
                 </div>
                 <div className="main-info-priceOfferTitle">Offer price:</div>
                 <div className="main-info-priceOffer">{price} VNĐ</div>
@@ -113,22 +126,16 @@ const ProductInfo = ({ title, price }) => {
           />
           <div className="quantity-option">
             <div className="quantity-input">
-              <div className="quantity-minus quantity-btn">
+              <div onClick={minusBtn} className="quantity-minus quantity-btn">
                 <i className="bi bi-dash" />
               </div>
-              <input
-                type="number"
-                id="quantityInput"
-                className="quantity-input"
-                min={1}
-                defaultValue={1}
-              />
-              <div className="quantity-plus quantity-btn">
+              <div>{quantity}</div>
+              <div onClick={plusBtn} className="quantity-plus quantity-btn">
                 <i className="bi bi-plus" />
               </div>
             </div>
             <div className="price-calculated">
-              <span id="price-calculated"> 799.000</span>
+              <span id="price-calculated">{newPrice}</span>
               <span> VNĐ</span>
             </div>
           </div>
