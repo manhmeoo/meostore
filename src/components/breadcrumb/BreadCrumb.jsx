@@ -5,7 +5,7 @@ import "./BreadCrumb.css";
 const BreadCrumb = () => {
   return (
     <>
-      <nav style={{}} aria-label="breadcrumb">
+      <nav aria-label="breadcrumb">
         <ol className="breadcrumb">
           <li className="breadcrumb-item">
             <Link to="/">

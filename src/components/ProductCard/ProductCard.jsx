@@ -2,11 +2,11 @@ import React from "react";
 import "./ProductCard.css";
 import { Link } from "react-router-dom";
 
-const ProductCard = ({ title, price, image1, image2 }) => {
+const ProductCard = ({ id, title, price, image1, image2 }) => {
   return (
     <>
       <div className="swiper-slide">
-        <Link to="productDetails.html" className="card">
+        <Link to={`/product/${id}`} className="card">
           <div className="products-img-container">
             <img src={image1} className="card-img-top main-img" alt="..." />
             <img src={image2} className="card-img-top second-img" alt="..." />

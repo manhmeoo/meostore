@@ -36,6 +36,7 @@ const NewArrival = () => {
           <div className="newArival-container Products__details">
             {Products?.map((item, index) => (
               <ProductCard
+                id={item.id}
                 key={index}
                 title={item.title}
                 price={item.price}

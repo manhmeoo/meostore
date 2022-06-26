@@ -46,10 +46,11 @@ const RelatedProducts = () => {
                 className="mySwiper"
               >
                 <div className="swiper-wrapper">
-                  {Products?.map((item) => (
+                  {Products?.map((item, index) => (
                     <SwiperSlide>
                       <ProductCard
-                        key={item.id}
+                        id={item.id}
+                        key={index}
                         title={item.title}
                         price={item.price}
                         image1={item.screenshorts[0].src}

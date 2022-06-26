@@ -61,6 +61,7 @@ const TrendyTab = () => {
           {Products?.map((item) => (
             <SwiperSlide>
               <ProductCard
+                id={item.id}
                 key={item.id}
                 title={item.title}
                 price={item.price}
